@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRYPTD App Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">CRYPTD Store</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="category.html">Categories</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>Discover, Search &amp; Download Amazing Apps</h1>
+            <p>Browse the best apps curated from our Blogger-powered store. Fast, modern, and always up to date.</p>
+            <div class="search-wrapper">
+                <input type="text" id="search-input" class="search-bar" placeholder="Search apps by name, developer, or category...">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="apps-section">
+            <div class="section-header">
+                <h2 class="section-title">Featured Apps</h2>
+            </div>
+            <div id="app-grid" class="app-grid"></div>
+            <div id="loading" class="loading" style="display:none;">
+                <div class="spinner"></div>
+                <p>Loading apps...</p>
+            </div>
+            <div id="error" class="error-message" style="display:none;"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section">
+                <h3>CRYPTD Store</h3>
+                <p>Powered by Blogger. Designed for speed and simplicity.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="mailto:support@cryptd.com">support@cryptd.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
