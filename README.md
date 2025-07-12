@@ -17,7 +17,7 @@
 6. **Deploy:**
    - Upload the project to Netlify, Vercel, GitHub Pages, or any static hosting provider.
 
-You can update your app store instantly by editing your Blogger posts—no code changes needed for new apps or categories!
+You can update your app store instantly by editing your Blogger posts no code changes needed for new apps or categories!
 
 ---
 
